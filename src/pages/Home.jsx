@@ -1,11 +1,13 @@
-import Banner from "../components/Home/Banner.jsx";
 import CustomCarousel from "../components/CustomCarousel.jsx";
+import MostSelled from "../components/Home/MostSelled.jsx";
 
 
 function Home() {
   return (
     <>
         <CustomCarousel />
+
+        <MostSelled />
     </>
   );
 }

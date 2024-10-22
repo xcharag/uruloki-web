@@ -3,7 +3,7 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 
 import MenuIcon from '@mui/icons-material/Menu';
-import uruLogo from '/public/assets/uruloki-logo-tpbg.png';
+import uruLogo from '/assets/uruloki-logo-tpbg.png';
 
 import {Box, Button, Container, IconButton, Menu, MenuItem, Typography} from "@mui/material";
 

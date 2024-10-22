@@ -3,9 +3,9 @@ import { Box, Typography, Button } from '@mui/material';
 
 const CustomCarousel = () => {
     const items = [
-        { text: '🔮 Explora el Mundo de Magic', buttonLabel: 'Explorar', backgroundImage: 'url(/public/assets/bg-magic.jpg)' },
-        { text: '🎲 Descubre Nuevos Juegos de Mesa', buttonLabel: 'Aprender Mas', backgroundImage: 'url(/public/assets/bg-tabletop.jpg)' },
-        { text: '🧙🏾 Juegos de Miniaturas y Rol', buttonLabel: 'Rolear!', backgroundImage: 'url(/public/assets/bg-dnd.jpg)' },
+        { text: '🔮 Explora el Mundo de Magic', buttonLabel: 'Explorar', backgroundImage: 'url(/assets/bg-magic.jpg)' },
+        { text: '🎲 Descubre Nuevos Juegos de Mesa', buttonLabel: 'Aprender Mas', backgroundImage: 'url(/assets/bg-tabletop.jpg)' },
+        { text: '🧙🏾 Juegos de Miniaturas y Rol', buttonLabel: 'Rolear!', backgroundImage: 'url(/assets/bg-dnd.jpg)' },
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
